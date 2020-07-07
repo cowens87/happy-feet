@@ -1,0 +1,14 @@
+Class: IceCream
+
+Attributes:
+currentFlavor (string)
+toppings (array)
+hasCone (boolean)
+totalNumberOfScoops (integer)
+currentNumberOfScoops (integer)
+
+Methods:
+chooseFlavor (will change currentFlavor)
+addToppings (will add topping item into the toppings array)
+pickCone (will toggle hasCone to true)
+calculateScoopsRemaining (totalNumberOfScoops-currentNumberOfScoops)
